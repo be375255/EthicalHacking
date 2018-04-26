@@ -1,0 +1,8 @@
+Kali has some tools that can be used to exploit Cisco router. One such tool is Cisco-torch which is used for mass scanning, fingerprinting, and exploitation.
+“cisco-torch –parameter IP of host”
+“cisco-torch ?”
+Cisco Auditing Tool:
+It is a PERL script, which scans Cisco routers for common vulnerabilities. To use it, again open the terminal on the left pane as shown in the previous section and type “CAT –h hostname or IP”. You can add the port parameter “-p” as shown in the following screenshot, which in this case is 23 to brute-force it.
+Cisco Global Exploiter:
+Cisco Global Exploiter (CGE) is an advanced, simple, and fast security testing tool. With these tools, you can perform several types of attacks as shown in the following screenshot. However, be careful while testing in a live environment as some of them can crash the Cisco devise.
+“cge.pl IPaddress number of vulnerability”

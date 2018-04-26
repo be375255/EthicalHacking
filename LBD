@@ -1,0 +1,5 @@
+LBD (Load Balancing Detector) tools are very interesting as they detect if a given domain uses DNS and/or HTTP load balancing. It is important because if you have two servers, one or the other may not be updated and you can try to exploit it. 
+Then, type “lbd domainname”. If it produces a result as “FOUND”, it means that the server has a load balance. In this case, the result is “NOT FOUND”.
+Hping3 is widely used by ethical hackers. It is nearly similar to ping tools but is more advanced, as it can bypass the firewall filter and use TCP, UDP, ICMP and RAW-IP protocols. It has a traceroute mode and the ability to send files between a covered channel.
+“hping3 –h”
+“hping3 domain or IP -parameter”

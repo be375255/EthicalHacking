@@ -1,0 +1,4 @@
+BED is a program designed to check daemons for potential buffer overflows, format strings, et. al.
+“bed –s HTTP –t 192.168.1.102”
+
+Fern Wifi cracker is one of the tools that Kali has to crack wireless. Before opening Fern, we should turn the wireless card into monitoring mode. To do this, Type “airmon-ng start wlan-0” in the terminal.

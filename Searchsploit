@@ -1,0 +1,6 @@
+dnsenum.pl
+The first tool is dnsenum.pl which is a PERL script that helps to get MX, A, and other records connect to a domain. Type “dnsenum domain name” and all the records will be shown. In this case, it shows A records.
+DNSMAP
+The second tool is DNSMAP which helps to find the phone numbers, contacts, and other subdomain connected to this domain, that we are searching. Following is an example. “dnsmap domain name”
+DNSTRACER
+The third tool is dnstracer, which determines where a given Domain Name Server (DNS) gets its information from for a given hostname. “dnstracer domain name”.

@@ -1,0 +1,4 @@
+nmap -sS -p 1-6500 192.168.1.10
+Stealth scan or SYN is also known as half-open scan, as it doesn’t complete the TCP three-way handshake. A hacker sends a SYN packet to the target; if a SYN/ACK frame is received back, then it’s assumed the target would complete the connect and the port is listening. If an RST is received back from the target, then it is assumed the port isn’t active or is closed.
+nmap -p 1-65535 -T4  192.168.1.10
+Where the parameter “–p” indicates all the TCP ports that have to be scanned. In this case, we are scanning all the ports and “-T4” is the speed of scanning at which NMAP has to run.
